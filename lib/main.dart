@@ -1,7 +1,7 @@
 
-
 import 'package:flutter/material.dart';
 import 'package:fade/fade.dart';
+import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 
 
 
@@ -301,7 +301,7 @@ class _ZomatoState extends State<Zomato> {
                       border: OutlineInputBorder(
                           borderRadius: BorderRadius.all(Radius.circular(6.0)),
                           borderSide: BorderSide(color: Colors.black)),
-                      labelText: "Search for resturant, cafe..."),
+                      labelText: "Search for restaurant, cafe..."),
                       
                 ),
               ),
@@ -444,6 +444,451 @@ class _ZomatoState extends State<Zomato> {
              
          )
            
+            ),
+            SizedBox(
+              height: 5,
+            ),
+            Row(
+             children: <Widget>[
+                Image.network('https://upload.wikimedia.org/wikipedia/commons/5/5d/Chicken_65_%28Dish%29.jpg',
+                height: 80,
+                width: 120,)
+                ,Center(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                  children: <Widget>[
+                    Text(' Master Dhaba',
+                  
+                    
+                    style: TextStyle(fontWeight: FontWeight.bold ,
+                    fontSize: 20
+                    ),
+                    ),
+                    Text(' Rs 100 per person\n Currently not accepting orders'),
+                    
+
+                  ],
+                  
+                  ),
+                ),
+                SizedBox(
+width: 10,
+                ),
+               Expanded(
+                                child: Container(
+                   alignment: Alignment.centerRight,
+                   child: RatingBarIndicator(
+    rating: 2.75,
+    itemBuilder: (context, index) => Icon(
+         Icons.star,
+         color: Colors.amber,
+    ),
+    itemCount: 5,
+    itemSize: 20.0,
+    direction: Axis.vertical,
+),
+                 ),
+               ),
+             ], 
+            ),
+              SizedBox(
+              height: 5,
+            ),
+            Row(
+             children: <Widget>[
+                Image.network('https://thelodhi.com/admin/exec/slider/lodhi-bakery-slider2.jpg1556543291.jpg',
+                height: 80,
+                width: 120,)
+                ,Center(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                  children: <Widget>[
+                    Text(' Natural Fresh',
+                    textAlign: TextAlign.start,
+                    style: TextStyle(fontWeight: FontWeight.bold ,
+                    fontSize: 20
+                    ),
+                    ),
+                    Text(' Bakery \n Rs 100 per person\n '),
+                    
+
+                  ],
+                  
+                  ),
+                ),
+                SizedBox(
+width: 10,
+                ),
+              Expanded(
+                              child: Container(
+                  alignment:Alignment.centerRight ,
+                  child: RatingBarIndicator(
+    rating: 3.6,
+    itemBuilder: (context, index) => Icon(
+         Icons.star,
+         color: Colors.amber,
+    ),
+    itemCount: 5,
+    itemSize: 20.0,
+    direction: Axis.vertical,
+),
+                ),
+              ),
+             ], 
+            ),
+              SizedBox(
+              height: 5,
+            ),
+            Row(
+             children: <Widget>[
+                Image.network('https://www.shikararestaurant.com/wp-content/uploads/2018/01/chicken-65.jpg',
+                height: 80,
+                width:120,)
+                ,Center(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                  children: <Widget>[
+                    Text('Satguru Dhaba',
+                     textAlign: TextAlign.start,
+                    style: TextStyle(fontWeight: FontWeight.bold,
+                    fontSize: 20 
+                    ),
+                    ),
+                    Text('North Indian\nRs 100 per person\n '),
+                    
+
+                  ],
+                  
+                  ),
+                ),
+                SizedBox(
+width: 10,
+                ),
+              Expanded(
+                              child: Container(
+                                alignment: Alignment.centerRight,
+                  child: RatingBarIndicator(
+    rating: 3.4,
+    itemBuilder: (context, index) => Icon(
+         Icons.star,
+         color: Colors.amber,
+    ),
+    itemCount: 5,
+    itemSize: 20.0,
+    direction: Axis.vertical,
+),
+                ),
+              ),
+             ], 
+            ),
+              SizedBox(
+              height: 5,
+            ),
+            Row(
+             children: <Widget>[
+                Image.network('https://www.indianfestivaldiary.com/durgapuja/sweets_recipes/images/durga_puja_sweets_recipes.jpg',
+                height: 80,
+                width: 120,)
+                ,Center(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                  children: <Widget>[
+                    Text(' Banarsi misthan',
+                     textAlign: TextAlign.start,
+                    style: TextStyle(fontWeight: FontWeight.bold,
+                    fontSize: 20 
+                    ),
+                    ),
+                    Text(' Mithai,Beverages\n Rs 100 per person'),
+                    
+
+                  ],
+                  
+                  ),
+                ),
+                SizedBox(
+width: 10,
+                ),
+              Expanded(
+                              child: Container(
+                                alignment: Alignment.centerRight,
+                  child: RatingBarIndicator(
+    rating: 4.0,
+    itemBuilder: (context, index) => Icon(
+         Icons.star,
+         color: Colors.amber,
+    ),
+    itemCount: 5,
+    itemSize: 20.0,
+    direction: Axis.vertical,
+),
+                ),
+              ),
+             ], 
+            ),
+              SizedBox(
+              height: 5,
+            ),
+            Center(
+              child: Row(
+               children: <Widget>[
+                  Image.network('https://www.foodfitnessbeautyandmore.com/wp-content/uploads/2017/10/litti-chokha-baked-appe-39-1024x768.jpg',
+                  height: 80,
+                  width: 120,)
+                  ,Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                  children: <Widget>[
+                    Text('Aroma Restaurant ',
+                     textAlign: TextAlign.start,
+                    style: TextStyle(fontWeight: FontWeight.bold 
+                    ,fontSize: 20),
+                    ),
+                    Text('South Indian\nRs 150 per person\n '),
+                    
+
+                  ],
+                  
+                  ),
+                  SizedBox(
+width: 10,
+                  ),
+                 Expanded(
+                                    child: Container(
+                alignment: Alignment.centerRight,
+                     child: RatingBarIndicator(
+    rating: 3.2,
+    itemBuilder: (context, index) => Icon(
+         Icons.star,
+         color: Colors.amber,
+    ),
+    itemCount: 5,
+    itemSize: 20.0,
+    direction: Axis.vertical,
+),
+                   ),
+                 ),
+               ], 
+              ),
+            ),
+               SizedBox(
+              height: 5,
+            ),
+            Center(
+              child: Row(
+               children: <Widget>[
+                  Image.network('https://www.seriouseats.com/images/2017/10/20171009-egg-breakfast-recipes-roundup-02.jpg',
+                  height: 80,
+                  width: 120,)
+                  ,Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                  children: <Widget>[
+                    Text('Krishna Egg point',
+                     textAlign: TextAlign.start,
+                    style: TextStyle(fontWeight: FontWeight.bold 
+                    ,fontSize: 20),
+                    ),
+                    Text('Opens at 1:15 pm\nRs 100 per person\n '),
+                    
+
+                  ],
+                  
+                  ),
+                  SizedBox(
+width: 10,
+                  ),
+                 Expanded(
+                                    child: Container(
+                alignment: Alignment.centerRight,
+                     child: RatingBarIndicator(
+    rating: 4.5,
+    itemBuilder: (context, index) => Icon(
+         Icons.star,
+         color: Colors.amber,
+    ),
+    itemCount: 5,
+    itemSize: 20.0,
+    direction: Axis.vertical,
+),
+                   ),
+                 ),
+               ], 
+              ),
+            ),
+               SizedBox(
+              height: 5,
+            ),
+            Center(
+              child: Row(
+               children: <Widget>[
+                  Image.network('https://www.thespicedlife.com/wp-content/uploads/2015/07/North-Indian-Baked-Eggs-1-1-of-1.jpg',
+                  height: 80,
+                  width: 120,)
+                  ,Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                  children: <Widget>[
+                    Text('7th Heaven',
+                     textAlign: TextAlign.start,
+                    style: TextStyle(fontWeight: FontWeight.bold 
+                    ,fontSize: 20),
+                    ),
+                    Text('Fast Food,Desserts,Chinese \nRs 100 per person\n Opens at 12:10 pm  '),
+                    
+
+                  ],
+                  
+                  ),
+                  SizedBox(
+width: 10,
+                  ),
+                 Expanded(
+                                    child: Container(
+                alignment: Alignment.centerRight,
+                     child: RatingBarIndicator(
+    rating: 4.0,
+    itemBuilder: (context, index) => Icon(
+         Icons.star,
+         color: Colors.amber,
+    ),
+    itemCount: 5,
+    itemSize: 20.0,
+    direction: Axis.vertical,
+),
+                   ),
+                 ),
+               ], 
+              ),
+            ),
+               SizedBox(
+              height: 5,
+            ),
+            Center(
+              child: Row(
+               children: <Widget>[
+                  Image.network('https://www.tasty-indian-recipes.com/wp-content/uploads/2013/11/Khada-Pav-Bhaji-Recipe.jpg',
+                  height: 80,
+                  width: 120,)
+                  ,Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                  children: <Widget>[
+                    Text('Om bhaji pav ',
+                     textAlign: TextAlign.start,
+                    style: TextStyle(fontWeight: FontWeight.bold 
+                    ,fontSize: 20),
+                    ),
+                    Text('North Indian\nRs 100 per person\n '),
+                    
+
+                  ],
+                  
+                  ),
+                  SizedBox(
+width: 10,
+                  ),
+                 Expanded(
+                                    child: Container(
+                alignment: Alignment.centerRight,
+                     child: RatingBarIndicator(
+    rating: 2,
+    itemBuilder: (context, index) => Icon(
+         Icons.star,
+         color: Colors.amber,
+    ),
+    itemCount: 5,
+    itemSize: 20.0,
+    direction: Axis.vertical,
+),
+                   ),
+                 ),
+               ], 
+              ),
+            )
+            ,   SizedBox(
+              height: 5,
+            ),
+            Center(
+              child: Row(
+               children: <Widget>[
+                  Image.network('https://www.yummyfoodrecipes.in/resources/picture/org/Marathi-dish.jpg',
+                  height: 80,
+                  width: 120,)
+                  ,Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                  children: <Widget>[
+                    Text('Goli Vada pav ',
+                     textAlign: TextAlign.start,
+                    style: TextStyle(fontWeight: FontWeight.bold 
+                    ,fontSize: 20),
+                    ),
+                    Text('Street Food \nRs 50 per person \nOpens at 10:00 am '),
+                    
+
+                  ],
+                  
+                  ),
+                  SizedBox(
+width: 10,
+                  ),
+                 Expanded(
+                                    child: Container(
+                alignment: Alignment.centerRight,
+                     child: RatingBarIndicator(
+    rating: 4,
+    itemBuilder: (context, index) => Icon(
+         Icons.star,
+         color: Colors.amber,
+    ),
+    itemCount: 5,
+    itemSize: 20.0,
+    direction: Axis.vertical,
+),
+                   ),
+                 ),
+               ], 
+              ),
+            ),
+               SizedBox(
+              height: 5,
+            ),
+            Center(
+              child: Row(
+               children: <Widget>[
+                  Image.network('https://food.fnr.sndimg.com/content/dam/images/food/fullset/2011/5/27/1/0155727_BURGERS-30_s4x3.jpg.rend.hgtvcom.616.462.suffix/1371597459171.jpeg',
+                  height: 80,
+                  width: 120,)
+                  ,Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                  children: <Widget>[
+                    Text('Mr Burger Cafe',
+                     textAlign: TextAlign.start,
+                    style: TextStyle(fontWeight: FontWeight.bold 
+                    ,fontSize: 20),
+                    ),
+                    Text('Fast Food,American,Italian\n Rs 100 per person\n Opens at 12:30 pm'),
+                    
+
+                  ],
+                  
+                  ),
+                  SizedBox(
+width: 10,
+                  ),
+                 Expanded(
+                                    child: Container(
+                alignment: Alignment.centerRight,
+                     child: RatingBarIndicator(
+    rating: 3.2,
+    itemBuilder: (context, index) => Icon(
+         Icons.star,
+         color: Colors.amber,
+    ),
+    itemCount: 5,
+    itemSize: 20.0,
+    direction: Axis.vertical,
+),
+                   ),
+                 ),
+               ], 
+              ),
             )
             ]
                 )
