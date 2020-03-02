@@ -53,6 +53,21 @@ flutter:
       - assets/grt2.jpg
       - assets/grt.jpg
       - assets/grt1.jpg  
+      - assets/grt3.png
+      - assets/grt4.jpg
+      - assets/grt5.jpg
+      - assets/grt6.jpg
+      - assets/grt7.jpg
+      - assets/grt8.jpg
+      - assets/grt9.jpg
+      - assets/grt10.jpg
+      - assets/grt11.jpg
+      - assets/grt12.jpg
+      - assets/grt13.jpg
+      - assets/grt14.jpg
+      - assets/grt15.jpg
+      - assets/grt16.jpg
+      - assets/grt17.jpeg
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
 

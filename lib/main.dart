@@ -29,15 +29,19 @@ class _ZomatoState extends State<Zomato> {
       TextStyle(fontSize: 30, fontWeight: FontWeight.bold);
  const List<Widget> _widgetOptions = <Widget>[
     Text(
-      'Index 0: Home',
+      'Index 0: Delievery',
       style: optionStyle,
     ),
     Text(
-      'Index 1: Business',
+      'Index 1: Favorite',
       style: optionStyle,
     ),
     Text(
-      'Index 2: School',
+      'Index 2: History',
+      style: optionStyle,
+    ),
+    Text(
+      'Index 3: Videos',
       style: optionStyle,
     ),
   ];
@@ -92,6 +96,7 @@ class _ZomatoState extends State<Zomato> {
         selectedItemColor: Colors.amber[800],
         onTap: _onItemTapped,
       ),
+      
     
          drawer: Drawer(
           
@@ -222,7 +227,9 @@ class _ZomatoState extends State<Zomato> {
           ],
         ),
       ),
+      
       appBar: AppBar(
+        
         backgroundColor: Colors.white70,
         elevation: 0,
         title: Column(
@@ -232,46 +239,53 @@ class _ZomatoState extends State<Zomato> {
             SizedBox(
               height: 30,
             ),
-            Row(
-              children: <Widget>[
-                Icon(
-                  Icons.location_on,
-                  color: Colors.red,
-                ),
-                Text('KIET GHAZIABAD',
-                    style: TextStyle(
-                      color: Colors.black,
-                      fontSize: 15
-                    )),
-                Spacer(),
-                Container(
-                  padding:
-                      EdgeInsets.only(top: 2, left: 5, right: 5, bottom: 2),
-                  decoration: BoxDecoration(
-                    border: Border.all(color: Colors.black54),
-                    borderRadius: BorderRadius.circular(8),
+           FlatButton (
+             onPressed:(){} ,
+              
+                          child: Row(
+                children: <Widget>[
+                  Icon(
+                    Icons.location_on,
+                    color: Colors.red,
                   ),
-                  child: Row(
-                    crossAxisAlignment: CrossAxisAlignment.center,
-                    children: <Widget>[
-                      Icon(
-                        Icons.language,
-                        size: 19,
-                        color: Colors.black54,
+                  Text('KIET GHAZIABAD',
+                      style: TextStyle(
+                        color: Colors.black,
+                        fontSize: 15
+                      )),
+                  Spacer(),
+                  FlatButton (
+                    onPressed: (){},
+                                      child: Container(
+                      padding:
+                          EdgeInsets.only(top: 2, left: 5, right: 5, bottom: 2),
+                      decoration: BoxDecoration(
+                        border: Border.all(color: Colors.black54),
+                        borderRadius: BorderRadius.circular(8),
                       ),
-                      Text('EN',
-                          style: TextStyle(
-                            fontSize: 12,
+                      child: Row(
+                        crossAxisAlignment: CrossAxisAlignment.center,
+                        children: <Widget>[
+                          Icon(
+                            Icons.language,
+                            size: 19,
                             color: Colors.black54,
-                          )
                           ),
-                          
-                    ],
+                          Text('EN',
+                              style: TextStyle(
+                                fontSize: 12,
+                                color: Colors.black54,
+                              )
+                              ),
+                              
+                        ],
+                      ),
+                    ),
                   ),
-                ),
-              
-              
-              ],
+                
+                
+                ],
+              ),
             ),
           ],
         ),
@@ -319,37 +333,52 @@ class _ZomatoState extends State<Zomato> {
           child: ListView(
             scrollDirection: Axis.horizontal,
             children: <Widget>[
-              Container(
-                width: 350.0,
-                child: Image.network("https://cdn.grabon.in/gograbon/images/merchant/1545547346420.png"),
+              FlatButton (
+                onPressed: (){},
+                              child: Container(
+                  width: 350.0,
+                  child: Image.asset("assets/grt3.png")
+                ),
               ),
               SizedBox(
                 width: 20,
               ),
-              Container(
-                width: 350.0,
-                child: Image.network("https://cdn.grabon.in/gograbon/images/web-images/uploads/1549361194978/zomato-coupons.jpg"),
+              FlatButton (
+                onPressed: (){},
+                              child: Container(
+                  width: 350.0,
+                  child: Image.asset("assets/grt4.jpg")
+                ),
               ),
               SizedBox(width: 20,),
-              Container(
-                width: 260.0,
-                child: Image.network("https://cashkaro.com/blog/wp-content/uploads/sites/5/2019/02/Zomato-Paytm-Flat-50-Off-Offer.jpg"),
+              FlatButton (
+                onPressed: (){},
+                              child: Container(
+                  width: 260.0,
+                  child: Image.asset("assets/grt5.jpg")
+                ),
               ),
               SizedBox(
               width: 20,
               ),
-              Container(
-                width: 260.0,
-                child: Image.network("https://cashkaro.com/blog/wp-content/uploads/sites/5/2019/02/Zomato-Rupay-Card-Offers.jpg"),
+              FlatButton (
+                onPressed: (){},
+                              child: Container(
+                  width: 260.0,
+                  child:Image.asset("assets/grt6.jpg")
+                ),
               ),
               SizedBox(
                 width : 20
                 
               ),
-              Container(
-                
-                width: 350.0,
-                child: Image.network("https://i.ytimg.com/vi/_ojlZXeZns8/maxresdefault.jpg"),
+              FlatButton (
+                onPressed: (){},
+                              child: Container(
+                  
+                  width: 350.0,
+                  child: Image.asset("assets/grt7.jpg")
+                ),
               ),
             ],
           ),
@@ -366,21 +395,30 @@ class _ZomatoState extends State<Zomato> {
           child: ListView(
             scrollDirection: Axis.horizontal,
             children: <Widget>[
-              Container(
-                width: 100.0,
-                child: Image.asset("assets/grt2.jpg")
+              FlatButton (
+                onPressed: (){},
+                              child: Container(
+                  width: 100.0,
+                  child: Image.asset("assets/grt2.jpg")
+                ),
               ),
               SizedBox(
                 width: 5,
               ),
-              Container(
-                width: 100.0,
-                child: Image.asset("assets/grt.jpg"),
+              FlatButton (
+                onPressed: (){},
+                              child: Container(
+                  width: 100.0,
+                  child: Image.asset("assets/grt.jpg"),
+                ),
               ),
               SizedBox(width: 5,),
-              Container(
-                width: 100.0,
-                child: Image.asset("assets/grt1.jpg"),
+              FlatButton (
+                onPressed: (){},
+                              child: Container(
+                  width: 100.0,
+                  child: Image.asset("assets/grt1.jpg"),
+                ),
               ),
            
          ]
@@ -390,6 +428,9 @@ class _ZomatoState extends State<Zomato> {
         ]
         
            )   , 
+           SizedBox(
+             height: 5,
+           ),
             Column(
          children: <Widget>[
             Container(
@@ -448,36 +489,41 @@ class _ZomatoState extends State<Zomato> {
             SizedBox(
               height: 5,
             ),
-            Row(
-             children: <Widget>[
-                Image.network('https://upload.wikimedia.org/wikipedia/commons/5/5d/Chicken_65_%28Dish%29.jpg',
-                height: 80,
-                width: 120,)
-                ,Center(
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                  children: <Widget>[
-                    Text(' Master Dhaba',
-                  
-                    
-                    style: TextStyle(fontWeight: FontWeight.bold ,
-                    fontSize: 20
-                    ),
-                    ),
-                    Text(' Rs 100 per person\n Currently not accepting orders'),
-                    
-
-                  ],
-                  
+            FlatButton (
+              onPressed: (){},
+                          child: Row(
+               children: <Widget>[
+                  Image.asset("assets/grt8.jpg",
+                  height: 100
+                  ,width: 120,
                   ),
-                ),
-                SizedBox(
+
+                  Center(
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                    children: <Widget>[
+                      
+                      Text(' Master Dhaba',
+                    
+                      
+                      style: TextStyle(fontWeight: FontWeight.bold ,
+                      fontSize: 20
+                      ),
+                      ),
+                      Text(' Veg/NonVeg\n Rs 100 per person'),
+                      
+
+                    ],
+                    
+                    ),
+                  ),
+                  SizedBox(
 width: 10,
-                ),
-               Expanded(
-                                child: Container(
-                   alignment: Alignment.centerRight,
-                   child: RatingBarIndicator(
+                  ),
+                 Expanded(
+                                  child: Container(
+                     alignment: Alignment.centerRight,
+                     child: RatingBarIndicator(
     rating: 2.75,
     itemBuilder: (context, index) => Icon(
          Icons.star,
@@ -487,42 +533,45 @@ width: 10,
     itemSize: 20.0,
     direction: Axis.vertical,
 ),
+                   ),
                  ),
-               ),
-             ], 
+               ], 
+              ),
             ),
               SizedBox(
               height: 5,
             ),
-            Row(
-             children: <Widget>[
-                Image.network('https://thelodhi.com/admin/exec/slider/lodhi-bakery-slider2.jpg1556543291.jpg',
-                height: 80,
-                width: 120,)
-                ,Center(
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                  children: <Widget>[
-                    Text(' Natural Fresh',
-                    textAlign: TextAlign.start,
-                    style: TextStyle(fontWeight: FontWeight.bold ,
-                    fontSize: 20
-                    ),
-                    ),
-                    Text(' Bakery \n Rs 100 per person\n '),
-                    
+            FlatButton (
+              onPressed: (){},
+                          child: Row(
+               children: <Widget>[
+                 Image.asset("assets/grt9.jpg",
+                 height: 100
+                  ,width: 120,),
+                 Center(
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                    children: <Widget>[
+                      Text(' Natural Fresh',
+                      textAlign: TextAlign.start,
+                      style: TextStyle(fontWeight: FontWeight.bold ,
+                      fontSize: 20
+                      ),
+                      ),
+                      Text(' Bakery \n Rs 100 per person\n '),
+                      
 
-                  ],
-                  
+                    ],
+                    
+                    ),
                   ),
-                ),
-                SizedBox(
+                  SizedBox(
 width: 10,
-                ),
-              Expanded(
-                              child: Container(
-                  alignment:Alignment.centerRight ,
-                  child: RatingBarIndicator(
+                  ),
+                Expanded(
+                                child: Container(
+                    alignment:Alignment.centerRight ,
+                    child: RatingBarIndicator(
     rating: 3.6,
     itemBuilder: (context, index) => Icon(
          Icons.star,
@@ -532,42 +581,45 @@ width: 10,
     itemSize: 20.0,
     direction: Axis.vertical,
 ),
+                  ),
                 ),
+               ], 
               ),
-             ], 
             ),
               SizedBox(
               height: 5,
             ),
-            Row(
-             children: <Widget>[
-                Image.network('https://www.shikararestaurant.com/wp-content/uploads/2018/01/chicken-65.jpg',
-                height: 80,
-                width:120,)
-                ,Center(
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                  children: <Widget>[
-                    Text('Satguru Dhaba',
-                     textAlign: TextAlign.start,
-                    style: TextStyle(fontWeight: FontWeight.bold,
-                    fontSize: 20 
-                    ),
-                    ),
-                    Text('North Indian\nRs 100 per person\n '),
-                    
+            FlatButton (
+              onPressed: (){},
+                          child: Row(
+               children: <Widget>[
+                 Image.asset("assets/grt10.jpg"
+                 ,height: 100
+                  ,width: 120,),
+                 Center(
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                    children: <Widget>[
+                      Text('Satguru Dhaba',
+                       textAlign: TextAlign.start,
+                      style: TextStyle(fontWeight: FontWeight.bold,
+                      fontSize: 20 
+                      ),
+                      ),
+                      Text('North Indian\nRs 100 per person\n '),
+                      
 
-                  ],
-                  
+                    ],
+                    
+                    ),
                   ),
-                ),
-                SizedBox(
+                  SizedBox(
 width: 10,
-                ),
-              Expanded(
-                              child: Container(
-                                alignment: Alignment.centerRight,
-                  child: RatingBarIndicator(
+                  ),
+                Expanded(
+                                child: Container(
+                                  alignment: Alignment.centerRight,
+                    child: RatingBarIndicator(
     rating: 3.4,
     itemBuilder: (context, index) => Icon(
          Icons.star,
@@ -577,42 +629,45 @@ width: 10,
     itemSize: 20.0,
     direction: Axis.vertical,
 ),
+                  ),
                 ),
+               ], 
               ),
-             ], 
             ),
               SizedBox(
               height: 5,
             ),
-            Row(
-             children: <Widget>[
-                Image.network('https://www.indianfestivaldiary.com/durgapuja/sweets_recipes/images/durga_puja_sweets_recipes.jpg',
-                height: 80,
-                width: 120,)
-                ,Center(
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                  children: <Widget>[
-                    Text(' Banarsi misthan',
-                     textAlign: TextAlign.start,
-                    style: TextStyle(fontWeight: FontWeight.bold,
-                    fontSize: 20 
-                    ),
-                    ),
-                    Text(' Mithai,Beverages\n Rs 100 per person'),
-                    
+            FlatButton (
+              onPressed: (){},
+                          child: Row(
+               children: <Widget>[
+                 Image.asset("assets/grt11.jpg"
+                 ,height: 100
+                  ,width: 120,)
+                 ,Center(
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                    children: <Widget>[
+                      Text(' Banarsi misthan',
+                       textAlign: TextAlign.start,
+                      style: TextStyle(fontWeight: FontWeight.bold,
+                      fontSize: 20 
+                      ),
+                      ),
+                      Text(' Mithai,Beverages\n Rs 100 per person'),
+                      
 
-                  ],
-                  
+                    ],
+                    
+                    ),
                   ),
-                ),
-                SizedBox(
+                  SizedBox(
 width: 10,
-                ),
-              Expanded(
-                              child: Container(
-                                alignment: Alignment.centerRight,
-                  child: RatingBarIndicator(
+                  ),
+                Expanded(
+                                child: Container(
+                                  alignment: Alignment.centerRight,
+                    child: RatingBarIndicator(
     rating: 4.0,
     itemBuilder: (context, index) => Icon(
          Icons.star,
@@ -622,40 +677,43 @@ width: 10,
     itemSize: 20.0,
     direction: Axis.vertical,
 ),
+                  ),
                 ),
+               ], 
               ),
-             ], 
             ),
               SizedBox(
               height: 5,
             ),
-            Center(
-              child: Row(
-               children: <Widget>[
-                  Image.network('https://www.foodfitnessbeautyandmore.com/wp-content/uploads/2017/10/litti-chokha-baked-appe-39-1024x768.jpg',
-                  height: 80,
-                  width: 120,)
-                  ,Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                  children: <Widget>[
-                    Text('Aroma Restaurant ',
-                     textAlign: TextAlign.start,
-                    style: TextStyle(fontWeight: FontWeight.bold 
-                    ,fontSize: 20),
-                    ),
-                    Text('South Indian\nRs 150 per person\n '),
-                    
+            FlatButton (
+              onPressed: (){},
+                          child: Center(
+                child: Row(
+                 children: <Widget>[
+                    Image.asset("assets/grt12.jpg",
+                    height: 100
+                  ,width: 120,),
+                    Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                    children: <Widget>[
+                      Text('Aroma Restaurant ',
+                       textAlign: TextAlign.start,
+                      style: TextStyle(fontWeight: FontWeight.bold 
+                      ,fontSize: 20),
+                      ),
+                      Text('South Indian\nRs 150 per person\n '),
+                      
 
-                  ],
-                  
-                  ),
-                  SizedBox(
+                    ],
+                    
+                    ),
+                    SizedBox(
 width: 10,
-                  ),
-                 Expanded(
-                                    child: Container(
-                alignment: Alignment.centerRight,
-                     child: RatingBarIndicator(
+                    ),
+                   Expanded(
+                                      child: Container(
+                  alignment: Alignment.centerRight,
+                       child: RatingBarIndicator(
     rating: 3.2,
     itemBuilder: (context, index) => Icon(
          Icons.star,
@@ -665,41 +723,44 @@ width: 10,
     itemSize: 20.0,
     direction: Axis.vertical,
 ),
+                     ),
                    ),
-                 ),
-               ], 
+                 ], 
+                ),
               ),
             ),
                SizedBox(
               height: 5,
             ),
-            Center(
-              child: Row(
-               children: <Widget>[
-                  Image.network('https://www.seriouseats.com/images/2017/10/20171009-egg-breakfast-recipes-roundup-02.jpg',
-                  height: 80,
-                  width: 120,)
-                  ,Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                  children: <Widget>[
-                    Text('Krishna Egg point',
-                     textAlign: TextAlign.start,
-                    style: TextStyle(fontWeight: FontWeight.bold 
-                    ,fontSize: 20),
-                    ),
-                    Text('Opens at 1:15 pm\nRs 100 per person\n '),
-                    
+            FlatButton (
+              onPressed: (){},
+                          child: Center(
+                child: Row(
+                 children: <Widget>[
+                    Image.asset("assets/grt13.jpg"
+                    ,height: 100
+                  ,width: 120,),
+                    Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                    children: <Widget>[
+                      Text('Krishna Egg point',
+                       textAlign: TextAlign.start,
+                      style: TextStyle(fontWeight: FontWeight.bold 
+                      ,fontSize: 20),
+                      ),
+                      Text('Opens at 1:15 pm\nRs 100 per person\n '),
+                      
 
-                  ],
-                  
-                  ),
-                  SizedBox(
+                    ],
+                    
+                    ),
+                    SizedBox(
 width: 10,
-                  ),
-                 Expanded(
-                                    child: Container(
-                alignment: Alignment.centerRight,
-                     child: RatingBarIndicator(
+                    ),
+                   Expanded(
+                                      child: Container(
+                  alignment: Alignment.centerRight,
+                       child: RatingBarIndicator(
     rating: 4.5,
     itemBuilder: (context, index) => Icon(
          Icons.star,
@@ -709,41 +770,44 @@ width: 10,
     itemSize: 20.0,
     direction: Axis.vertical,
 ),
+                     ),
                    ),
-                 ),
-               ], 
+                 ], 
+                ),
               ),
             ),
                SizedBox(
               height: 5,
             ),
-            Center(
-              child: Row(
-               children: <Widget>[
-                  Image.network('https://www.thespicedlife.com/wp-content/uploads/2015/07/North-Indian-Baked-Eggs-1-1-of-1.jpg',
-                  height: 80,
-                  width: 120,)
-                  ,Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                  children: <Widget>[
-                    Text('7th Heaven',
-                     textAlign: TextAlign.start,
-                    style: TextStyle(fontWeight: FontWeight.bold 
-                    ,fontSize: 20),
-                    ),
-                    Text('Fast Food,Desserts,Chinese \nRs 100 per person\n Opens at 12:10 pm  '),
-                    
+            FlatButton (
+              onPressed: (){},
+                          child: Center(
+                child: Row(
+                 children: <Widget>[
+                    Image.asset("assets/grt14.jpg",
+                    height: 100
+                  ,width: 120,),
+                    Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                    children: <Widget>[
+                      Text('7th Heaven',
+                       textAlign: TextAlign.start,
+                      style: TextStyle(fontWeight: FontWeight.bold 
+                      ,fontSize: 20),
+                      ),
+                      Text('Fast Food,Desserts,Chinese \nRs 100 per person\n Opens at 12:10 pm  '),
+                      
 
-                  ],
-                  
-                  ),
-                  SizedBox(
+                    ],
+                    
+                    ),
+                    SizedBox(
 width: 10,
-                  ),
-                 Expanded(
-                                    child: Container(
-                alignment: Alignment.centerRight,
-                     child: RatingBarIndicator(
+                    ),
+                   Expanded(
+                                      child: Container(
+                  alignment: Alignment.centerRight,
+                       child: RatingBarIndicator(
     rating: 4.0,
     itemBuilder: (context, index) => Icon(
          Icons.star,
@@ -753,41 +817,44 @@ width: 10,
     itemSize: 20.0,
     direction: Axis.vertical,
 ),
+                     ),
                    ),
-                 ),
-               ], 
+                 ], 
+                ),
               ),
             ),
                SizedBox(
               height: 5,
             ),
-            Center(
-              child: Row(
-               children: <Widget>[
-                  Image.network('https://www.tasty-indian-recipes.com/wp-content/uploads/2013/11/Khada-Pav-Bhaji-Recipe.jpg',
-                  height: 80,
-                  width: 120,)
-                  ,Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                  children: <Widget>[
-                    Text('Om bhaji pav ',
-                     textAlign: TextAlign.start,
-                    style: TextStyle(fontWeight: FontWeight.bold 
-                    ,fontSize: 20),
-                    ),
-                    Text('North Indian\nRs 100 per person\n '),
-                    
+            FlatButton (
+              onPressed: (){},
+                          child: Center(
+                child: Row(
+                 children: <Widget>[
+                    Image.asset("assets/grt15.jpg",
+                    height: 100
+                  ,width: 120,),
+                    Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                    children: <Widget>[
+                      Text('Om bhaji pav ',
+                       textAlign: TextAlign.start,
+                      style: TextStyle(fontWeight: FontWeight.bold 
+                      ,fontSize: 20),
+                      ),
+                      Text('North Indian\nRs 100 per person\n '),
+                      
 
-                  ],
-                  
-                  ),
-                  SizedBox(
+                    ],
+                    
+                    ),
+                    SizedBox(
 width: 10,
-                  ),
-                 Expanded(
-                                    child: Container(
-                alignment: Alignment.centerRight,
-                     child: RatingBarIndicator(
+                    ),
+                   Expanded(
+                                      child: Container(
+                  alignment: Alignment.centerRight,
+                       child: RatingBarIndicator(
     rating: 2,
     itemBuilder: (context, index) => Icon(
          Icons.star,
@@ -797,41 +864,45 @@ width: 10,
     itemSize: 20.0,
     direction: Axis.vertical,
 ),
+
+                     ),
                    ),
-                 ),
-               ], 
+                 ], 
+                ),
               ),
             )
             ,   SizedBox(
               height: 5,
             ),
-            Center(
-              child: Row(
-               children: <Widget>[
-                  Image.network('https://www.yummyfoodrecipes.in/resources/picture/org/Marathi-dish.jpg',
-                  height: 80,
-                  width: 120,)
-                  ,Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                  children: <Widget>[
-                    Text('Goli Vada pav ',
-                     textAlign: TextAlign.start,
-                    style: TextStyle(fontWeight: FontWeight.bold 
-                    ,fontSize: 20),
-                    ),
-                    Text('Street Food \nRs 50 per person \nOpens at 10:00 am '),
-                    
+            FlatButton (
+              onPressed: (){},
+                          child: Center(
+                child: Row(
+                 children: <Widget>[
+                    Image.asset("assets/grt16.jpg",
+                    height: 100
+                  ,width: 120,),
+                    Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                    children: <Widget>[
+                      Text('Goli Vada pav ',
+                       textAlign: TextAlign.start,
+                      style: TextStyle(fontWeight: FontWeight.bold 
+                      ,fontSize: 20),
+                      ),
+                      Text('Street Food \nRs 50 per person \nOpens at 10:00 am '),
+                      
 
-                  ],
-                  
-                  ),
-                  SizedBox(
+                    ],
+                    
+                    ),
+                    SizedBox(
 width: 10,
-                  ),
-                 Expanded(
-                                    child: Container(
-                alignment: Alignment.centerRight,
-                     child: RatingBarIndicator(
+                    ),
+                   Expanded(
+                                      child: Container(
+                  alignment: Alignment.centerRight,
+                       child: RatingBarIndicator(
     rating: 4,
     itemBuilder: (context, index) => Icon(
          Icons.star,
@@ -841,41 +912,44 @@ width: 10,
     itemSize: 20.0,
     direction: Axis.vertical,
 ),
+                     ),
                    ),
-                 ),
-               ], 
+                 ], 
+                ),
               ),
             ),
                SizedBox(
               height: 5,
             ),
-            Center(
-              child: Row(
-               children: <Widget>[
-                  Image.network('https://food.fnr.sndimg.com/content/dam/images/food/fullset/2011/5/27/1/0155727_BURGERS-30_s4x3.jpg.rend.hgtvcom.616.462.suffix/1371597459171.jpeg',
-                  height: 80,
-                  width: 120,)
-                  ,Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                  children: <Widget>[
-                    Text('Mr Burger Cafe',
-                     textAlign: TextAlign.start,
-                    style: TextStyle(fontWeight: FontWeight.bold 
-                    ,fontSize: 20),
-                    ),
-                    Text('Fast Food,American,Italian\n Rs 100 per person\n Opens at 12:30 pm'),
-                    
+            FlatButton (
+              onPressed: (){},
+                          child: Center(
+                child: Row(
+                 children: <Widget>[
+                   Image.asset("assets/grt17.jpeg",
+                   height: 100
+                  ,width: 120,)
+                   ,Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                    children: <Widget>[
+                      Text('Mr Burger Cafe',
+                       textAlign: TextAlign.start,
+                      style: TextStyle(fontWeight: FontWeight.bold 
+                      ,fontSize: 20),
+                      ),
+                      Text('Fast Food,American,Italian\n Rs 100 per person\n Opens at 12:30 pm'),
+                      
 
-                  ],
-                  
-                  ),
-                  SizedBox(
+                    ],
+                    
+                    ),
+                    SizedBox(
 width: 10,
-                  ),
-                 Expanded(
-                                    child: Container(
-                alignment: Alignment.centerRight,
-                     child: RatingBarIndicator(
+                    ),
+                   Expanded(
+                                      child: Container(
+                  alignment: Alignment.centerRight,
+                       child: RatingBarIndicator(
     rating: 3.2,
     itemBuilder: (context, index) => Icon(
          Icons.star,
@@ -885,9 +959,10 @@ width: 10,
     itemSize: 20.0,
     direction: Axis.vertical,
 ),
+                     ),
                    ),
-                 ),
-               ], 
+                 ], 
+                ),
               ),
             )
             ]
@@ -895,9 +970,7 @@ width: 10,
                 
                 ]
                 )  
-                 );
-
-     
+                 );     
   }
 }
      
