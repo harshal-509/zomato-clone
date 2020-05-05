@@ -49,9 +49,105 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
+<<<<<<< HEAD
   #assets:
     #  - images/a_dot_burr.jpeg
    # - images/a_dot_ham.jpeg
+=======
+  assets:
+    #  - images/a_dot_burr.jpeg
+     # - images/a_dot_ham.jpeg
+      - assets/grt2.jpg
+      - assets/grt.jpg
+      - assets/grt1.jpg  
+      - assets/grt3.png
+      - assets/grt4.jpg
+      - assets/grt5.jpg
+      - assets/grt6.jpg
+      - assets/grt7.jpg
+      - assets/grt8.jpg
+      - assets/grt9.jpg
+      - assets/grt10.jpg
+      - assets/grt11.jpg
+      - assets/grt12.jpg
+      - assets/grt13.jpg
+      - assets/grt14.jpg
+      - assets/grt15.jpg
+      - assets/grt16.jpg
+      - assets/grt17.jpeg
+      - assets/grt18.jpg
+      - assets/grt19.jpg
+      - assets/grt20.jpg
+      - assets/grt21.jpg
+      - assets/grt22.jpg
+      - assets/grt23.jpg
+      - assets/grt24.jpg
+      - assets/grt25.jpg  
+      - assets/grt26.jpg  
+      - assets/grt27.cms
+      - assets/grt28.png  
+      - assets/grt29.jpg  
+      - assets/grt30.jpg  
+      - assets/grt31.cms
+      - assets/grt32.jpg
+      - assets/grt33.jpg
+      - assets/grt34.jpg
+      - assets/grt35.jpg  
+      - assets/grt36.jpg 
+      - assets/grt37.jpg 
+      - assets/grt38.jpg
+      - assets/grt39.jpg
+      - assets/grt40.jpg
+      - assets/grt41.jpg
+      - assets/grt42.jpg
+      - assets/grt43.jpg
+      - assets/grt44.jpg
+      - assets/grt45.jpg
+      - assets/grt46.jpg
+      - assets/grt47.jpg
+      - assets/grt48.jpg
+      - assets/grt49.jpg
+      - assets/grt50.jpg
+      - assets/grt51.jpg
+      - assets/grt52.jpg
+      - assets/grt53.jpg
+      - assets/grt54.jpg
+      - assets/grt55.jpg
+      - assets/grt56.jpg
+      - assets/grt57.jpg
+      - assets/grt58.jpg
+      - assets/grt59.jpg
+      - assets/grt60.jpg
+      - assets/grt61.jpg
+      - assets/grt62.jpg
+      - assets/grt63.jpg
+      - assets/grt64.jpg
+      - assets/grt65.jpg
+      - assets/grt66.jpg
+      - assets/grt67.jpg
+      - assets/grt68.jpg
+      - assets/grt69.jpg
+      - assets/grt70.jpg
+      - assets/grt80.jpg
+      - assets/grt81.jpg
+      - assets/grt82.png
+      - assets/grt83.jpg
+      - assets/grt84.jpg
+      - assets/grt85.jpg
+      - assets/grt86.jpg
+      - assets/grt87.jpg
+      - assets/grt88.jpg
+      - assets/grt89.jpg
+      - assets/grt90.jpg
+      - assets/grt91.jpg
+      - assets/grt92.jpg
+      - assets/grt93.jpg
+      - assets/grt94.jpg
+      - assets/grt95.jpg
+      - assets/grt96.jpg
+      - assets/grt97.jpg  
+      - assets/intro.mp4
+>>>>>>> 4fa0ee2f238abc64a713d5635a2dda9a9ac48172
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
 

@@ -250,7 +250,11 @@ drawer: Drawer(
                 onPressed: (){},
                               child: Container(
                   width: 350.0,
+<<<<<<< HEAD
                   child: Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt3.png?raw=true")
+=======
+                  child: Image.asset("assets/grt3.png")
+>>>>>>> 4fa0ee2f238abc64a713d5635a2dda9a9ac48172
                 ),
               ),
             
@@ -258,7 +262,11 @@ drawer: Drawer(
                 onPressed: (){},
                               child: Container(
                   width: 350.0,
+<<<<<<< HEAD
                   child: Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt4.jpg?raw=true")
+=======
+                  child: Image.asset("assets/grt4.jpg")
+>>>>>>> 4fa0ee2f238abc64a713d5635a2dda9a9ac48172
                 ),
               ),
           
@@ -266,14 +274,22 @@ drawer: Drawer(
                 onPressed: (){},
                               child: Container(
                   width: 260.0,
+<<<<<<< HEAD
                   child: Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt5.jpg?raw=true")
+=======
+                  child: Image.asset("assets/grt5.jpg")
+>>>>>>> 4fa0ee2f238abc64a713d5635a2dda9a9ac48172
                 ),
               ),
                   FlatButton (
                 onPressed: (){},
                               child: Container(
                   width: 260.0,
+<<<<<<< HEAD
                   child:Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt6.jpg?raw=true")
+=======
+                  child:Image.asset("assets/grt6.jpg")
+>>>>>>> 4fa0ee2f238abc64a713d5635a2dda9a9ac48172
                 ),
               ),
                 
@@ -282,7 +298,11 @@ drawer: Drawer(
                 onPressed: (){},
                               child: Container(
                   width: 350.0,
+<<<<<<< HEAD
                   child: Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt7.jpg?raw=true")
+=======
+                  child: Image.asset("assets/grt7.jpg")
+>>>>>>> 4fa0ee2f238abc64a713d5635a2dda9a9ac48172
                 ),
               ),
             ],
@@ -299,7 +319,11 @@ drawer: Drawer(
                 onPressed: (){},
                               child: Container(
                   width: 100.0,
+<<<<<<< HEAD
                   child: Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt2.jpg?raw=true")
+=======
+                  child: Image.asset("assets/grt2.jpg")
+>>>>>>> 4fa0ee2f238abc64a713d5635a2dda9a9ac48172
                 ),
               ),
               
@@ -307,14 +331,22 @@ drawer: Drawer(
                 onPressed: (){},
                               child: Container(
                   width: 100.0,
+<<<<<<< HEAD
                   child: Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt.jpg?raw=true")
+=======
+                  child: Image.asset("assets/grt.jpg"),
+>>>>>>> 4fa0ee2f238abc64a713d5635a2dda9a9ac48172
                 ),
               ),
   FlatButton (
                 onPressed: (){},
                               child: Container(
                   width: 100.0,
+<<<<<<< HEAD
                   child: Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt1.jpg?raw=true")
+=======
+                  child: Image.asset("assets/grt1.jpg"),
+>>>>>>> 4fa0ee2f238abc64a713d5635a2dda9a9ac48172
                 ),
               ),
              ]
@@ -385,7 +417,11 @@ drawer: Drawer(
               },
                           child: Row(
                children: <Widget>[
+<<<<<<< HEAD
                   Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt8.jpg?raw=true",
+=======
+                  Image.asset("assets/grt8.jpg",
+>>>>>>> 4fa0ee2f238abc64a713d5635a2dda9a9ac48172
                   height: 100
                   ,width: 120,
                   ),
@@ -435,7 +471,11 @@ drawer: Drawer(
               },
                           child: Row(
                children: <Widget>[
+<<<<<<< HEAD
                  Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt9.jpg?raw=true",
+=======
+                 Image.asset("assets/grt9.jpg",
+>>>>>>> 4fa0ee2f238abc64a713d5635a2dda9a9ac48172
                  height: 100
                   ,width: 120,),
                  Center(
@@ -485,8 +525,13 @@ drawer: Drawer(
               },
                           child: Row(
                children: <Widget>[
+<<<<<<< HEAD
                  Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt10.jpg?raw=true",
                  height: 100
+=======
+                 Image.asset("assets/grt10.jpg"
+                 ,height: 100
+>>>>>>> 4fa0ee2f238abc64a713d5635a2dda9a9ac48172
                   ,width: 120,),
                  Center(
                     child: Column(
@@ -538,8 +583,13 @@ width: 10,
               },
                           child: Row(
                children: <Widget>[
+<<<<<<< HEAD
                  Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt11.jpg?raw=true",
                  height: 100
+=======
+                 Image.asset("assets/grt11.jpg"
+                 ,height: 100
+>>>>>>> 4fa0ee2f238abc64a713d5635a2dda9a9ac48172
                   ,width: 120,)
                  ,Center(
                     child: Column(
@@ -591,7 +641,11 @@ width: 10,
                child: Center(
                 child: Row(
                  children: <Widget>[
+<<<<<<< HEAD
                     Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt12.jpg?raw=true",
+=======
+                    Image.asset("assets/grt12.jpg",
+>>>>>>> 4fa0ee2f238abc64a713d5635a2dda9a9ac48172
                     height: 100
                   ,width: 120,),
                     Column(
@@ -663,7 +717,11 @@ class _Zomato1State extends State<Zomato1> {
               
                    Row(
                   children: <Widget>[
+<<<<<<< HEAD
                     Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt8.jpg?raw=true",
+=======
+                    Image.asset("assets/grt8.jpg",
+>>>>>>> 4fa0ee2f238abc64a713d5635a2dda9a9ac48172
                   height: 100
                   ,width: 120,
                   ),
@@ -991,7 +1049,11 @@ class _Zomato1State extends State<Zomato1> {
            Row(
             
                  children: <Widget>[
+<<<<<<< HEAD
                      Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt18.jpg?raw=true",
+=======
+                     Image.asset("assets/grt18.jpg",
+>>>>>>> 4fa0ee2f238abc64a713d5635a2dda9a9ac48172
                   height: 100
                   ,width: 120,
                   ),
@@ -1035,7 +1097,11 @@ class _Zomato1State extends State<Zomato1> {
             Row(
             
                  children: <Widget>[
+<<<<<<< HEAD
                                         Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt19.jpg?raw=true",
+=======
+                                        Image.asset("assets/grt19.jpg",
+>>>>>>> 4fa0ee2f238abc64a713d5635a2dda9a9ac48172
                   height: 100
                   ,width: 120,
                   ),
@@ -1079,7 +1145,11 @@ class _Zomato1State extends State<Zomato1> {
                  Row(
             
                  children: <Widget>[
+<<<<<<< HEAD
                                         Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt20.jpg?raw=true",
+=======
+                                        Image.asset("assets/grt20.jpg",
+>>>>>>> 4fa0ee2f238abc64a713d5635a2dda9a9ac48172
                   height: 100
                   ,width: 120,
                   ),
@@ -1124,7 +1194,11 @@ class _Zomato1State extends State<Zomato1> {
                 ),
                  Row(
             
+<<<<<<< HEAD
                  children: <Widget>[          Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt21.jpg?raw=true",
+=======
+                 children: <Widget>[          Image.asset("assets/grt21.jpg",
+>>>>>>> 4fa0ee2f238abc64a713d5635a2dda9a9ac48172
                   height: 100
                   ,width: 120,
                   ),
@@ -1182,7 +1256,11 @@ class _Zomato1State extends State<Zomato1> {
            Row(
             
                  children: <Widget>[
+<<<<<<< HEAD
                      Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt22.jpg?raw=true",
+=======
+                     Image.asset("assets/grt22.jpg",
+>>>>>>> 4fa0ee2f238abc64a713d5635a2dda9a9ac48172
                   height: 100
                   ,width: 120,
                   ),
@@ -1226,7 +1304,11 @@ class _Zomato1State extends State<Zomato1> {
             Row(
             
                  children: <Widget>[
+<<<<<<< HEAD
                                         Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt23.jpg?raw=true",
+=======
+                                        Image.asset("assets/grt23.jpg",
+>>>>>>> 4fa0ee2f238abc64a713d5635a2dda9a9ac48172
                   height: 100
                   ,width: 120,
                   ),
@@ -1270,7 +1352,11 @@ class _Zomato1State extends State<Zomato1> {
                  Row(
             
                  children: <Widget>[
+<<<<<<< HEAD
                                         Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt24.jpg?raw=true",
+=======
+                                        Image.asset("assets/grt24.jpg",
+>>>>>>> 4fa0ee2f238abc64a713d5635a2dda9a9ac48172
                   height: 100
                   ,width: 120,
                   ),
@@ -1315,7 +1401,11 @@ class _Zomato1State extends State<Zomato1> {
                 ),
                  Row(
             
+<<<<<<< HEAD
                  children: <Widget>[          Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt25.jpg?raw=true",
+=======
+                 children: <Widget>[          Image.asset("assets/grt25.jpg",
+>>>>>>> 4fa0ee2f238abc64a713d5635a2dda9a9ac48172
                   height: 100
                   ,width: 120,
                   ),
@@ -1370,7 +1460,11 @@ class _Zomato1State extends State<Zomato1> {
            Row(
             
                  children: <Widget>[
+<<<<<<< HEAD
                      Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt26.jpg?raw=true",
+=======
+                     Image.asset("assets/grt26.jpg",
+>>>>>>> 4fa0ee2f238abc64a713d5635a2dda9a9ac48172
                   height: 100
                   ,width: 120,
                   ),
@@ -1414,7 +1508,11 @@ class _Zomato1State extends State<Zomato1> {
             Row(
             
                  children: <Widget>[
+<<<<<<< HEAD
                                         Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt27.cms?raw=true",
+=======
+                                        Image.asset("assets/grt27.cms",
+>>>>>>> 4fa0ee2f238abc64a713d5635a2dda9a9ac48172
                   height: 100
                   ,width: 120,
                   ),
@@ -1458,7 +1556,11 @@ class _Zomato1State extends State<Zomato1> {
                  Row(
             
                  children: <Widget>[
+<<<<<<< HEAD
                                         Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt28.png?raw=true",
+=======
+                                        Image.asset("assets/grt28.png",
+>>>>>>> 4fa0ee2f238abc64a713d5635a2dda9a9ac48172
                   height: 100
                   ,width: 120,
                   ),
@@ -1513,7 +1615,11 @@ class _Zomato1State extends State<Zomato1> {
            Row(
             
                  children: <Widget>[
+<<<<<<< HEAD
                      Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt29.jpg?raw=true",
+=======
+                     Image.asset("assets/grt29.jpg",
+>>>>>>> 4fa0ee2f238abc64a713d5635a2dda9a9ac48172
                   height: 100
                   ,width: 120,
                   ),
@@ -1557,7 +1663,11 @@ class _Zomato1State extends State<Zomato1> {
             Row(
             
                  children: <Widget>[
+<<<<<<< HEAD
                                         Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt30.jpg?raw=true",
+=======
+                                        Image.asset("assets/grt30.jpg",
+>>>>>>> 4fa0ee2f238abc64a713d5635a2dda9a9ac48172
                   height: 100
                   ,width: 120,
                   ),
@@ -1601,7 +1711,11 @@ class _Zomato1State extends State<Zomato1> {
                  Row(
             
                  children: <Widget>[
+<<<<<<< HEAD
                                         Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt31.cms?raw=true",
+=======
+                                        Image.asset("assets/grt31.cms",
+>>>>>>> 4fa0ee2f238abc64a713d5635a2dda9a9ac48172
                   height: 100
                   ,width: 120,
                   ),
@@ -1701,7 +1815,11 @@ class _Zomato2State extends State<Zomato2> {
               ),
                    Row(
                   children: <Widget>[
+<<<<<<< HEAD
                     Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt9.jpg?raw=true",
+=======
+                    Image.asset("assets/grt9.jpg",
+>>>>>>> 4fa0ee2f238abc64a713d5635a2dda9a9ac48172
                   height: 100
                   ,width: 120,
                   ),
@@ -1815,7 +1933,11 @@ class _Zomato2State extends State<Zomato2> {
            Row(
             
                  children: <Widget>[
+<<<<<<< HEAD
                      Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt32.jpg?raw=true",
+=======
+                     Image.asset("assets/grt32.jpg",
+>>>>>>> 4fa0ee2f238abc64a713d5635a2dda9a9ac48172
                   height: 100
                   ,width: 120,
                   ),
@@ -1859,7 +1981,11 @@ class _Zomato2State extends State<Zomato2> {
             Row(
             
                  children: <Widget>[
+<<<<<<< HEAD
                                         Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt33.jpg?raw=true",
+=======
+                                        Image.asset("assets/grt33.jpg",
+>>>>>>> 4fa0ee2f238abc64a713d5635a2dda9a9ac48172
                   height: 100
                   ,width: 120,
                   ),
@@ -1903,7 +2029,11 @@ class _Zomato2State extends State<Zomato2> {
                  Row(
             
                  children: <Widget>[
+<<<<<<< HEAD
                                         Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt34.jpg?raw=true",
+=======
+                                        Image.asset("assets/grt34.jpg",
+>>>>>>> 4fa0ee2f238abc64a713d5635a2dda9a9ac48172
                   height: 100
                   ,width: 120,
                   ),
@@ -1948,7 +2078,11 @@ class _Zomato2State extends State<Zomato2> {
                 ),
                  Row(
             
+<<<<<<< HEAD
                  children: <Widget>[          Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt35.jpg?raw=true",
+=======
+                 children: <Widget>[          Image.asset("assets/grt35.jpg",
+>>>>>>> 4fa0ee2f238abc64a713d5635a2dda9a9ac48172
                   height: 100
                   ,width: 120,
                   ),
@@ -2006,7 +2140,11 @@ class _Zomato2State extends State<Zomato2> {
            Row(
             
                  children: <Widget>[
+<<<<<<< HEAD
                      Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt36.jpg?raw=true",
+=======
+                     Image.asset("assets/grt36.jpg",
+>>>>>>> 4fa0ee2f238abc64a713d5635a2dda9a9ac48172
                   height: 100
                   ,width: 120,
                   ),
@@ -2050,7 +2188,11 @@ class _Zomato2State extends State<Zomato2> {
             Row(
             
                  children: <Widget>[
+<<<<<<< HEAD
                                         Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt37.jpg?raw=true",
+=======
+                                        Image.asset("assets/grt37.jpg",
+>>>>>>> 4fa0ee2f238abc64a713d5635a2dda9a9ac48172
                   height: 100
                   ,width: 120,
                   ),
@@ -2104,7 +2246,11 @@ class _Zomato2State extends State<Zomato2> {
            Row(
             
                  children: <Widget>[
+<<<<<<< HEAD
                      Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt38.jpg?raw=true",
+=======
+                     Image.asset("assets/grt38.jpg",
+>>>>>>> 4fa0ee2f238abc64a713d5635a2dda9a9ac48172
                   height: 100
                   ,width: 120,
                   ),
@@ -2148,7 +2294,11 @@ class _Zomato2State extends State<Zomato2> {
             Row(
             
                  children: <Widget>[
+<<<<<<< HEAD
                                         Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt39.jpg?raw=true",
+=======
+                                        Image.asset("assets/grt39.jpg",
+>>>>>>> 4fa0ee2f238abc64a713d5635a2dda9a9ac48172
                   height: 100
                   ,width: 120,
                   ),
@@ -2192,7 +2342,11 @@ class _Zomato2State extends State<Zomato2> {
                  Row(
             
                  children: <Widget>[
+<<<<<<< HEAD
                                         Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt40.jpg?raw=true",
+=======
+                                        Image.asset("assets/grt40.jpg",
+>>>>>>> 4fa0ee2f238abc64a713d5635a2dda9a9ac48172
                   height: 100
                   ,width: 120,
                   ),
@@ -2283,7 +2437,11 @@ class _Zomato4State extends State<Zomato4> {
               ),
                    Row(
                   children: <Widget>[
+<<<<<<< HEAD
                     Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt11.jpg?raw=true",
+=======
+                    Image.asset("assets/grt11.jpg",
+>>>>>>> 4fa0ee2f238abc64a713d5635a2dda9a9ac48172
                   height: 100
                   ,width: 120,
                   ),
@@ -2400,7 +2558,11 @@ class _Zomato4State extends State<Zomato4> {
            Row(
             
                  children: <Widget>[
+<<<<<<< HEAD
                      Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt60.jpg?raw=true",
+=======
+                     Image.asset("assets/grt60.jpg",
+>>>>>>> 4fa0ee2f238abc64a713d5635a2dda9a9ac48172
                   height: 100
                   ,width: 120,
                   ),
@@ -2453,7 +2615,11 @@ class _Zomato4State extends State<Zomato4> {
            Row(
             
                  children: <Widget>[
+<<<<<<< HEAD
                      Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt59.jpg?raw=true",
+=======
+                     Image.asset("assets/grt59.jpg",
+>>>>>>> 4fa0ee2f238abc64a713d5635a2dda9a9ac48172
                   height: 100
                   ,width: 120,
                   ),
@@ -2497,7 +2663,11 @@ class _Zomato4State extends State<Zomato4> {
             Row(
             
                  children: <Widget>[
+<<<<<<< HEAD
                                         Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt52.jpg?raw=true",
+=======
+                                        Image.asset("assets/grt52.jpg",
+>>>>>>> 4fa0ee2f238abc64a713d5635a2dda9a9ac48172
                   height: 100
                   ,width: 120,
                   ),
@@ -2541,7 +2711,11 @@ class _Zomato4State extends State<Zomato4> {
                  Row(
             
                  children: <Widget>[
+<<<<<<< HEAD
                                         Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt58.jpg?raw=true",
+=======
+                                        Image.asset("assets/grt58.jpg",
+>>>>>>> 4fa0ee2f238abc64a713d5635a2dda9a9ac48172
                   height: 100
                   ,width: 120,
                   ),
@@ -2586,7 +2760,11 @@ class _Zomato4State extends State<Zomato4> {
                 ),
                  Row(
             
+<<<<<<< HEAD
                  children: <Widget>[          Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt57.jpg?raw=true",
+=======
+                 children: <Widget>[          Image.asset("assets/grt57.jpg",
+>>>>>>> 4fa0ee2f238abc64a713d5635a2dda9a9ac48172
                   height: 100
                   ,width: 120,
                   ),
@@ -2641,7 +2819,11 @@ class _Zomato4State extends State<Zomato4> {
            Row(
             
                  children: <Widget>[
+<<<<<<< HEAD
                      Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt56.jpg?raw=true",
+=======
+                     Image.asset("assets/grt56.jpg",
+>>>>>>> 4fa0ee2f238abc64a713d5635a2dda9a9ac48172
                   height: 100
                   ,width: 120,
                   ),
@@ -2685,7 +2867,11 @@ class _Zomato4State extends State<Zomato4> {
             Row(
             
                  children: <Widget>[
+<<<<<<< HEAD
                                         Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt55.jpg?raw=true",
+=======
+                                        Image.asset("assets/grt55.jpg",
+>>>>>>> 4fa0ee2f238abc64a713d5635a2dda9a9ac48172
                   height: 100
                   ,width: 120,
                   ),
@@ -2729,7 +2915,11 @@ class _Zomato4State extends State<Zomato4> {
                  Row(
             
                  children: <Widget>[
+<<<<<<< HEAD
                                         Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt54.jpg?raw=true",
+=======
+                                        Image.asset("assets/grt54.jpg",
+>>>>>>> 4fa0ee2f238abc64a713d5635a2dda9a9ac48172
                   height: 100
                   ,width: 120,
                   ),
@@ -2784,7 +2974,11 @@ class _Zomato4State extends State<Zomato4> {
            Row(
             
                  children: <Widget>[
+<<<<<<< HEAD
                      Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt53.jpg?raw=true",
+=======
+                     Image.asset("assets/grt53.jpg",
+>>>>>>> 4fa0ee2f238abc64a713d5635a2dda9a9ac48172
                   height: 100
                   ,width: 120,
                   ),
@@ -2828,7 +3022,11 @@ class _Zomato4State extends State<Zomato4> {
             Row(
             
                  children: <Widget>[
+<<<<<<< HEAD
                                         Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt52.jpg?raw=true",
+=======
+                                        Image.asset("assets/grt52.jpg",
+>>>>>>> 4fa0ee2f238abc64a713d5635a2dda9a9ac48172
                   height: 100
                   ,width: 120,
                   ),
@@ -2872,7 +3070,11 @@ class _Zomato4State extends State<Zomato4> {
                  Row(
             
                  children: <Widget>[
+<<<<<<< HEAD
                                         Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt51.jpg?raw=true",
+=======
+                                        Image.asset("assets/grt51.jpg",
+>>>>>>> 4fa0ee2f238abc64a713d5635a2dda9a9ac48172
                   height: 100
                   ,width: 120,
                   ),
@@ -2969,7 +3171,11 @@ class _Zomato3State extends State<Zomato3> {
               ),
                    Row(
                   children: <Widget>[
+<<<<<<< HEAD
                     Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt10.jpg?raw=true",
+=======
+                    Image.asset("assets/grt10.jpg",
+>>>>>>> 4fa0ee2f238abc64a713d5635a2dda9a9ac48172
                   height: 100
                   ,width: 120,
                   ),
@@ -3083,7 +3289,11 @@ class _Zomato3State extends State<Zomato3> {
            Row(
             
                  children: <Widget>[
+<<<<<<< HEAD
                      Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt41.jpg?raw=true",
+=======
+                     Image.asset("assets/grt41.jpg",
+>>>>>>> 4fa0ee2f238abc64a713d5635a2dda9a9ac48172
                   height: 100
                   ,width: 120,
                   ),
@@ -3127,7 +3337,11 @@ class _Zomato3State extends State<Zomato3> {
             Row(
             
                  children: <Widget>[
+<<<<<<< HEAD
                                         Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt42.jpg?raw=true",
+=======
+                                        Image.asset("assets/grt42.jpg",
+>>>>>>> 4fa0ee2f238abc64a713d5635a2dda9a9ac48172
                   height: 100
                   ,width: 120,
                   ),
@@ -3184,7 +3398,11 @@ class _Zomato3State extends State<Zomato3> {
            Row(
             
                  children: <Widget>[
+<<<<<<< HEAD
                      Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt47.jpg?raw=true",
+=======
+                     Image.asset("assets/grt47.jpg",
+>>>>>>> 4fa0ee2f238abc64a713d5635a2dda9a9ac48172
                   height: 100
                   ,width: 120,
                   ),
@@ -3228,7 +3446,11 @@ class _Zomato3State extends State<Zomato3> {
             Row(
             
                  children: <Widget>[
+<<<<<<< HEAD
                                         Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt46.jpg?raw=true",
+=======
+                                        Image.asset("assets/grt46.jpg",
+>>>>>>> 4fa0ee2f238abc64a713d5635a2dda9a9ac48172
                   height: 100
                   ,width: 120,
                   ),
@@ -3272,7 +3494,11 @@ class _Zomato3State extends State<Zomato3> {
                  Row(
             
                  children: <Widget>[
+<<<<<<< HEAD
                                         Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt45.jpg?raw=true",
+=======
+                                        Image.asset("assets/grt45.jpg",
+>>>>>>> 4fa0ee2f238abc64a713d5635a2dda9a9ac48172
                   height: 100
                   ,width: 120,
                   ),
@@ -3317,7 +3543,11 @@ class _Zomato3State extends State<Zomato3> {
                 ),
                  Row(
             
+<<<<<<< HEAD
                  children: <Widget>[          Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt44.jpg?raw=true",
+=======
+                 children: <Widget>[          Image.asset("assets/grt44.jpg",
+>>>>>>> 4fa0ee2f238abc64a713d5635a2dda9a9ac48172
                   height: 100
                   ,width: 120,
                   ),
@@ -3372,7 +3602,11 @@ class _Zomato3State extends State<Zomato3> {
            Row(
             
                  children: <Widget>[
+<<<<<<< HEAD
                      Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt43.jpg?raw=true",
+=======
+                     Image.asset("assets/grt43.jpg",
+>>>>>>> 4fa0ee2f238abc64a713d5635a2dda9a9ac48172
                   height: 100
                   ,width: 120,
                   ),
@@ -3425,7 +3659,11 @@ class _Zomato3State extends State<Zomato3> {
            Row(
             
                  children: <Widget>[
+<<<<<<< HEAD
                      Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt50.jpg?raw=true",
+=======
+                     Image.asset("assets/grt50.jpg",
+>>>>>>> 4fa0ee2f238abc64a713d5635a2dda9a9ac48172
                   height: 100
                   ,width: 120,
                   ),
@@ -3469,7 +3707,11 @@ class _Zomato3State extends State<Zomato3> {
             Row(
             
                  children: <Widget>[
+<<<<<<< HEAD
                                         Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt49.jpg?raw=true",
+=======
+                                        Image.asset("assets/grt49.jpg",
+>>>>>>> 4fa0ee2f238abc64a713d5635a2dda9a9ac48172
                   height: 100
                   ,width: 120,
                   ),
@@ -3513,7 +3755,11 @@ class _Zomato3State extends State<Zomato3> {
                  Row(
             
                  children: <Widget>[
+<<<<<<< HEAD
                                         Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt48.jpg?raw=true",
+=======
+                                        Image.asset("assets/grt48.jpg",
+>>>>>>> 4fa0ee2f238abc64a713d5635a2dda9a9ac48172
                   height: 100
                   ,width: 120,
                   ),
@@ -3610,7 +3856,11 @@ class _Zomato5State extends State<Zomato5> {
               ),
                    Row(
                   children: <Widget>[
+<<<<<<< HEAD
                     Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt12.jpg?raw=true",
+=======
+                    Image.asset("assets/grt12.jpg",
+>>>>>>> 4fa0ee2f238abc64a713d5635a2dda9a9ac48172
                   height: 100
                   ,width: 120,
                   ),
@@ -3725,7 +3975,11 @@ class _Zomato5State extends State<Zomato5> {
            Row(
             
                  children: <Widget>[
+<<<<<<< HEAD
                      Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt61.jpg?raw=true",
+=======
+                     Image.asset("assets/grt61.jpg",
+>>>>>>> 4fa0ee2f238abc64a713d5635a2dda9a9ac48172
                   height: 100
                   ,width: 120,
                   ),
@@ -3769,8 +4023,14 @@ class _Zomato5State extends State<Zomato5> {
             Row(
             
                  children: <Widget>[
+<<<<<<< HEAD
                                         Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt62.jpg?raw=true",
                   width: 120,
+=======
+                                        Image.asset("assets/grt62.jpg",
+                  height: 100
+                  ,width: 120,
+>>>>>>> 4fa0ee2f238abc64a713d5635a2dda9a9ac48172
                   ),
                     Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
@@ -3825,7 +4085,11 @@ class _Zomato5State extends State<Zomato5> {
            Row(
             
                  children: <Widget>[
+<<<<<<< HEAD
                      Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt63.jpg?raw=true",
+=======
+                     Image.asset("assets/grt63.jpg",
+>>>>>>> 4fa0ee2f238abc64a713d5635a2dda9a9ac48172
                   height: 100
                   ,width: 120,
                   ),
@@ -3869,7 +4133,11 @@ class _Zomato5State extends State<Zomato5> {
             Row(
             
                  children: <Widget>[
+<<<<<<< HEAD
                                         Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt64.jpg?raw=true",
+=======
+                                        Image.asset("assets/grt64.jpg",
+>>>>>>> 4fa0ee2f238abc64a713d5635a2dda9a9ac48172
                   height: 100
                   ,width: 120,
                   ),
@@ -3922,7 +4190,11 @@ class _Zomato5State extends State<Zomato5> {
            Row(
             
                  children: <Widget>[
+<<<<<<< HEAD
                      Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt65.jpg?raw=true",
+=======
+                     Image.asset("assets/grt65.jpg",
+>>>>>>> 4fa0ee2f238abc64a713d5635a2dda9a9ac48172
                   height: 100
                   ,width: 120,
                   ),
@@ -3966,7 +4238,11 @@ class _Zomato5State extends State<Zomato5> {
             Row(
             
                  children: <Widget>[
+<<<<<<< HEAD
                                         Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt66.jpg?raw=true",
+=======
+                                        Image.asset("assets/grt66.jpg",
+>>>>>>> 4fa0ee2f238abc64a713d5635a2dda9a9ac48172
                   height: 100
                   ,width: 120,
                   ),
@@ -4010,7 +4286,11 @@ class _Zomato5State extends State<Zomato5> {
                  Row(
             
                  children: <Widget>[
+<<<<<<< HEAD
                                         Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt67.jpg?raw=true",
+=======
+                                        Image.asset("assets/grt67.jpg",
+>>>>>>> 4fa0ee2f238abc64a713d5635a2dda9a9ac48172
                   height: 100
                   ,width: 120,
                   ),
@@ -4056,7 +4336,11 @@ class _Zomato5State extends State<Zomato5> {
            Row(
             
                  children: <Widget>[
+<<<<<<< HEAD
                      Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt68.jpg?raw=true",
+=======
+                     Image.asset("assets/grt68.jpg",
+>>>>>>> 4fa0ee2f238abc64a713d5635a2dda9a9ac48172
                   height: 100
                   ,width: 120,
                   ),
@@ -4100,7 +4384,11 @@ class _Zomato5State extends State<Zomato5> {
             Row(
             
                  children: <Widget>[
+<<<<<<< HEAD
                                         Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt69.jpg?raw=true",
+=======
+                                        Image.asset("assets/grt69.jpg",
+>>>>>>> 4fa0ee2f238abc64a713d5635a2dda9a9ac48172
                   height: 100
                   ,width: 120,
                   ),
@@ -4144,7 +4432,11 @@ class _Zomato5State extends State<Zomato5> {
                  Row(
             
                  children: <Widget>[
+<<<<<<< HEAD
                                         Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt70.jpg?raw=true",
+=======
+                                        Image.asset("assets/grt70.jpg",
+>>>>>>> 4fa0ee2f238abc64a713d5635a2dda9a9ac48172
                   height: 100
                   ,width: 120,
                   ),
