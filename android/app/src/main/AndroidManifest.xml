@@ -27,8 +27,5 @@
             android:name="flutterEmbedding"
             android:value="2" />
     </application>
-<<<<<<< HEAD
     <uses-permission android:name="android.permission.INTERNET" />
-=======
->>>>>>> 4fa0ee2f238abc64a713d5635a2dda9a9ac48172
 </manifest>
