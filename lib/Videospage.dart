@@ -18,7 +18,7 @@ class _VideosState extends State<Videos> {
   final GlobalKey<ScaffoldState>_scaffoldkey= new GlobalKey<ScaffoldState>();
  @override
   void initState() {
-    _controller = VideoPlayerController.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/intro.mp4?raw=true");
+    _controller = VideoPlayerController.network("https://github.com/harshal-509/zomato-clone/blob/4fa0ee2f238abc64a713d5635a2dda9a9ac48172/assets/intro.mp4?raw=true");
     //_controller = VideoPlayerController.asset("videos/sample_video.mp4");
     _initializeVideoPlayerFuture = _controller.initialize();
     _controller.setLooping(true);
@@ -313,7 +313,7 @@ drawer: Drawer(
                 onPressed: (){},
                               child: Container(
                   width: 150.0,
-                  child: Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt80.jpg?raw=true")
+                  child: Image.network("https://github.com/harshal-509/zomato-clone/blob/4fa0ee2f238abc64a713d5635a2dda9a9ac48172/assets/grt80.jpg?raw=true")
                 ),
               ),
             
@@ -321,7 +321,7 @@ drawer: Drawer(
                 onPressed: (){},
                               child: Container(
                   width: 150.0,
-                  child: Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt81.jpg?raw=true")
+                  child: Image.network("https://github.com/harshal-509/zomato-clone/blob/4fa0ee2f238abc64a713d5635a2dda9a9ac48172/assets/grt81.jpg?raw=true")
                 ),
               ),
           
@@ -329,14 +329,14 @@ drawer: Drawer(
                 onPressed: (){},
                               child: Container(
                   width: 150.0,
-                  child: Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt83.jpg?raw=true",)
+                  child: Image.network("https://github.com/harshal-509/zomato-clone/blob/4fa0ee2f238abc64a713d5635a2dda9a9ac48172/assets/grt83.jpg?raw=true",)
                 ),
               ),
                   FlatButton (
                 onPressed: (){},
                               child: Container(
                   width: 150.0,
-                  child:Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt82.png?raw=true")
+                  child:Image.network("https://github.com/harshal-509/zomato-clone/blob/4fa0ee2f238abc64a713d5635a2dda9a9ac48172/assets/grt82.png?raw=true")
                 ),
               ),
             ],
@@ -361,7 +361,7 @@ drawer: Drawer(
                 onPressed: (){},
                               child: Container(
                   width: 100.0,
-                  child: Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt84.jpg?raw=true")
+                  child: Image.network("https://github.com/harshal-509/zomato-clone/blob/4fa0ee2f238abc64a713d5635a2dda9a9ac48172/assets/grt84.jpg?raw=true")
                 ),
               ),
             
@@ -369,7 +369,7 @@ drawer: Drawer(
                 onPressed: (){},
                               child: Container(
                   width: 100.0,
-                  child: Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt85.jpg?raw=true",)
+                  child: Image.network("https://github.com/harshal-509/zomato-clone/blob/4fa0ee2f238abc64a713d5635a2dda9a9ac48172/assets/grt85.jpg?raw=true",)
                 ),
               ),
              ]
@@ -396,7 +396,7 @@ drawer: Drawer(
                 onPressed: (){},
                               child: Container(
                   width: 100.0,
-                  child: Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt86.jpg?raw=true")
+                  child: Image.network("https://github.com/harshal-509/zomato-clone/blob/4fa0ee2f238abc64a713d5635a2dda9a9ac48172/assets/grt86.jpg?raw=true")
                   ),
               ),
             
@@ -404,7 +404,7 @@ drawer: Drawer(
                 onPressed: (){},
                               child: Container(
                   width: 100.0,
-                  child: Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt87.jpg?raw=true",)
+                  child: Image.network("https://github.com/harshal-509/zomato-clone/blob/4fa0ee2f238abc64a713d5635a2dda9a9ac48172/assets/grt87.jpg?raw=true",)
                 ),
               ),
           
@@ -412,14 +412,14 @@ drawer: Drawer(
                 onPressed: (){},
                               child: Container(
                   width: 100.0,
-                  child: Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt88.jpg?raw=true",)
+                  child: Image.network("https://github.com/harshal-509/zomato-clone/blob/4fa0ee2f238abc64a713d5635a2dda9a9ac48172/assets/grt88.jpg?raw=true",)
                 ),
               ),
                   FlatButton (
                 onPressed: (){},
                               child: Container(
                   width: 100.0,
-                  child:Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt89.jpg?raw=true",)
+                  child:Image.network("https://github.com/harshal-509/zomato-clone/blob/4fa0ee2f238abc64a713d5635a2dda9a9ac48172/assets/grt89.jpg?raw=true",)
                 ),
               ),
                 
@@ -428,7 +428,7 @@ drawer: Drawer(
                 onPressed: (){},
                               child: Container(
                   width: 100.0,
-                  child: Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt90.jpg?raw=true",)
+                  child: Image.network("https://github.com/harshal-509/zomato-clone/blob/4fa0ee2f238abc64a713d5635a2dda9a9ac48172/assets/grt90.jpg?raw=true",)
                 ),
               ),
              ]
@@ -455,7 +455,7 @@ drawer: Drawer(
                 onPressed: (){},
                               child: Container(
                   width: 100.0,
-                  child: Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt91.jpg?raw=true")
+                  child: Image.network("https://github.com/harshal-509/zomato-clone/blob/4fa0ee2f238abc64a713d5635a2dda9a9ac48172/assets/grt91.jpg?raw=true")
                 ),
               ),
             
@@ -463,7 +463,7 @@ drawer: Drawer(
                 onPressed: (){},
                               child: Container(
                   width: 100.0,
-                  child: Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt92.jpg?raw=true",)
+                  child: Image.network("https://github.com/harshal-509/zomato-clone/blob/4fa0ee2f238abc64a713d5635a2dda9a9ac48172/assets/grt92.jpg?raw=true",)
                 ),
               ),
           
@@ -471,14 +471,14 @@ drawer: Drawer(
                 onPressed: (){},
                               child: Container(
                   width: 100.0,
-                  child: Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt93.jpg?raw=true",)
+                  child: Image.network("https://github.com/harshal-509/zomato-clone/blob/4fa0ee2f238abc64a713d5635a2dda9a9ac48172/assets/grt93.jpg?raw=true",)
                 ),
               ),
                   FlatButton (
                 onPressed: (){},
                               child: Container(
                   width: 100.0,
-                  child:Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt94.jpg?raw=true",)
+                  child:Image.network("https://github.com/harshal-509/zomato-clone/blob/4fa0ee2f238abc64a713d5635a2dda9a9ac48172/assets/grt94.jpg?raw=true",)
                 ),
               ),
                 
@@ -487,21 +487,21 @@ drawer: Drawer(
                 onPressed: (){},
                               child: Container(
                   width: 100.0,
-                  child: Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt95.jpg?raw=true")
+                  child: Image.network("https://github.com/harshal-509/zomato-clone/blob/4fa0ee2f238abc64a713d5635a2dda9a9ac48172/assets/grt95.jpg?raw=true")
                 ),
               ),
                FlatButton (
                 onPressed: (){},
                               child: Container(
                   width: 100.0,
-                  child: Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt96.jpg?raw=true",)
+                  child: Image.network("https://github.com/harshal-509/zomato-clone/blob/4fa0ee2f238abc64a713d5635a2dda9a9ac48172/assets/grt96.jpg?raw=true",)
                 ),
               ),
                FlatButton (
                 onPressed: (){},
                               child: Container(
                   width: 100.0,
-                  child: Image.network("https://github.com/harshal-509/zomato-clone/blob/master/assets/grt97.jpg?raw=true",)
+                  child: Image.network("https://github.com/harshal-509/zomato-clone/blob/4fa0ee2f238abc64a713d5635a2dda9a9ac48172/assets/grt97.jpg?raw=true",)
                 ),
               ),
              ]
